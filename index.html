@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>website</title>
+
+    <style>
+        body {
+            background-color: rgb(31, 22, 22);
+            color: rgb(116, 255, 190);
+        }
+        
+        #text,
+        #btn {
+            width: 15%;
+            height: 20px;
+            font-size: 1rem;
+            margin: 0 auto;
+            padding: 2%;
+            box-sizing: border-box;
+            outline: none;
+            
+        }
+        
+        .btns {
+            width: 10%;
+            height: 40px;
+            margin: 0 auto;
+            font-size: 1rem;
+        
+        }
+    
+    </style>
+</head>
+
+<body>
+    <!-- ------------------color picker------------- -->
+    <input type="color" class="btns" id="col" />
+    <button id="btn1" class="btns">Change</button>
+    <input type="text" id="text1" />
+    <br />
+
+    <form action="#">
+    <input  type="text" id="text" placeholder="Enter color"  />
+        <button id="btn2" class="btns">Change</button>
+        <input type="reset" class="btns" />
+    </form>
+
+    <script src="color_picker.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>
